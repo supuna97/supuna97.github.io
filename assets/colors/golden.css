@@ -1,0 +1,388 @@
+/*------------------------- GENERAL -------------------------*/
+body {
+  background-color: #e5e7ed;
+}
+.base-color {
+  color: #dba423;
+}
+.secondary-button{
+  color: #dba423;
+  border: 1px solid #dba423;
+  background-color: transparent;
+}
+.secondary-button:hover{
+  color: #fff;
+  background-color: #dba423;
+}
+.subtitle {
+  color: #dba423;
+}
+.subtitle::before{
+  background-color: #dba423;
+}
+.subtitle::after{
+  background: linear-gradient(90deg, #dba423 40%, rgba(13, 202, 145, 0) 100%);
+}
+.heading-meta-container .description{
+  color: #dba423;
+}
+.heading-meta-container .description::before {
+  background-color: #dba423;
+}
+.heading-meta-container .description::after {
+  background: linear-gradient(to right, rgba(185, 143, 95, 0.15), #dba423, rgba(185, 143, 95, 0.15));
+}
+.vertical-line::after{
+  background: linear-gradient(to top, rgba(185, 143, 95, 0.15), #dba423, rgba(185, 143, 95, 0.15));
+}
+#main>section {
+  background-color: #fff;
+}
+/*------------------------- Preloader -------------------------*/
+#line-loader:before, #line-loader:after{
+  background-color: #e5e7ed;
+}
+.middle-line:before{
+  background-color: #000;
+}
+.middle-line:after{
+  background-color: #bbb;
+}
+/*------------------------- OVERLAY MENU -------------------------*/
+a.menu-arrow {
+  color: #dba423;
+}
+.menu li a {
+  color: #dba423;
+}
+.menu .list-group-item {
+  background-color: transparent;
+}
+header, .right-side {
+  background: #fff;
+}
+/*------------------------- RIGHT SIDE -------------------------*/
+#date b{
+  color: #dba423;
+}
+.follow-label {
+  color: #595959;
+}
+.follow-label::before {
+  background-color: #dba423;
+}
+.social a {
+  color: #595959;
+}
+/*------------------------- LEFT SIDE -------------------------*/
+.left-side {
+  background-color: #fff;
+}
+.primary-button {
+  color: #fff;
+  background-color: #dba423;
+  border: 1px solid #dba423;
+}
+.primary-button:hover {
+  color: #fff;
+}
+/*------------------------- Next & Prev Page -------------------------*/
+.next-prev-page button {
+  background-color: transparent;
+  border: 2px solid #dba423;
+  color: #dba423;
+}
+/*------------------------- About -------------------------*/
+.border-img{
+  border: 1px solid #dba423;
+}
+.personal-info li small{
+  color: #595959;
+}
+.count-up::before, .count-up::after{
+  background: linear-gradient(to right, rgba(185, 143, 95, 0.15), #dba423, rgba(185, 143, 95, 0.15));
+}
+.count-icon {
+  color: #dba423;
+}
+/*------------------------- Skills -------------------------*/
+.skills .skillbar {
+  background-color: #fff;
+  border: 1px solid #dba423;
+}
+.skills .skillbar-bar {
+  background-color: #dba423;
+  border: 2px solid #fff;
+}
+.knowledge-item li::before {
+  color: #dba423;
+}
+/*------------------------- Language Skill -------------------------*/
+.language-skill h6 span {
+  color: #5f5f5f;
+}
+.language-skill ul li i{
+  color: #dba423;
+}
+/*------------------------- Services -------------------------*/
+.boxes [class^="col-"]:nth-child(2n)::after{
+  background: linear-gradient(to right, #dba423, rgba(185, 143, 95, 0.15));
+}
+.boxes [class^="col-"]:nth-child(2n+1):after{
+  background: linear-gradient(to right, rgba(185, 143, 95, 0.15), #dba423);
+}
+.services-description {
+  color: #595959;
+}
+.services .services-icon {
+  color: #dba423;
+}
+/*------------------------- RESUME -------------------------*/
+.resume .timeline-year {
+  color: #dba423;
+}
+/*------------------------- Testimonial -------------------------*/
+.testimonial .testimonial-jub{
+  color: #595959;
+}
+.testimonial .owl-dot span {
+  background-color: transparent;
+  border: 1px solid #dba423;
+}
+.testimonial .owl-dot.active span {
+  background-color: #dba423;
+}
+/*------------------------- PORTFOLIO -------------------------*/
+.portfolio .portfolio-filter li a{
+  color: #171717;
+}
+.portfolio .portfolio-filter li a.active,.portfolio .portfolio-filter li a:hover {
+  color: #dba423;
+}
+.portfolio .portfolio-icon {
+  color: #fff;
+}
+.portfolio .portfolio-icon i{
+  color: #fff;
+}
+.portfolio .portfolio-image::before {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.portfolio .portfolio-content p{
+  color: #dba423;
+}
+/*------------------------- BLOG -------------------------*/
+.blog-icon{
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.blog-header, .blog-header ~ p{
+  color: var(--bs-body-color);
+}
+.blog-icon i{
+  color: #fff;
+}
+.blog-dates span{
+  color: #dba423;
+}
+.blog-single-page .right-side .blog-next-prev-page a{
+  background-color: transparent;
+  border: 2px solid #dba423 !important;
+  color: #dba423;
+}
+/*--------------------------- Contact ---------------------------*/
+.form-control {
+  border-bottom: 1px solid #595959;
+}
+.form-control:focus {
+  color: #dba423;
+  background-color: transparent;
+  border-bottom: 1px solid #dba423;
+}
+.item-icon {
+  color: #dba423;
+}
+/*--------------------------- Page Load Inner ---------------------------*/
+.page-ajax-loaded {
+  background-color: #fff;
+}
+.ajax-page-content {
+  background-color: #fff;
+}
+.ajax-page-nav div.nav-item a {
+  color: #595959;
+  background-color: #ccc;
+}
+.ajax-page-nav div.nav-item a:hover {
+  background-color: #dba423;
+  color: #fff;
+}
+/*------------------------- Portfolio pages -------------------------*/
+.portfolio-page-carousel .owl-nav [class*="owl-"] {
+  background-color: #dba423 !important;
+}
+.portfolio-page-carousel .owl-nav [class*="owl-"] span{
+  color: #fff;
+}
+.portfolio-page-carousel .owl-dot span {
+  background-color: #fff;
+}
+.portfolio-page-carousel .owl-dot.active span {
+  background-color: #dba423;
+}
+.aside-item-portfolio ul li:not(:last-child) {
+  border-bottom: 1px solid #e3e5d2;
+}
+.aside-item-portfolio ul li a{
+  color: #dba423;
+  margin-right: 4px;
+}
+.aside-title h6 {
+  color: #dba423;
+}
+.aside-title h6::after{
+  background: linear-gradient(90deg, #dba423 40%, rgba(13, 202, 145, 0) 100%);
+}
+/*------------------------- Blog Single -------------------------*/
+.blog-page-header {
+  box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.7);
+  color: #010101;
+}
+.blog-single .entry-meta ul li a {
+  color: #010101;
+}
+.blog-single .entry-meta ul li i {
+  margin-right: 6px;
+  color: #dba423;
+}
+.blog-single{
+  background-color: #fff;
+}
+
+
+.blog-single .quotation {
+  border-left: 3px solid #353535;
+}
+.blog-single .image-comment {
+  border: 1px solid #dba423;
+}
+.blog-single .comment-reply-link {
+  color: #010101;
+}
+.blog-single .search-boxes .form-group {
+  background-color: #f8f8f8;
+}
+.blog-single .search-boxes input {
+  background-color: transparent;
+}
+.blog-single .search-boxes button.btn {
+  color: #010101;
+}
+.blog-single .aside-box {
+  background-color: #f8f8f8;
+}
+.blog-single .aside-item ul li:not(:last-child) {
+  border-bottom: 1px solid #ebebeb;
+}
+.blog-single .aside-item ul li span {
+  color: #fff;
+}
+.blog-single .aside-item ul li a {
+  color: #010101;
+}
+.blog-single .post-list:not(:last-child) {
+  border-bottom: 1px solid #ebebeb;
+}
+.blog-single .post-title a {
+  color: #010101;
+}
+.blog-single .blog-date {
+  color: #010101;
+}
+.blog-single .tagcloud a {
+  color: #010101;
+  border: 1px solid #ebebeb;
+}
+.contact-01 .form-control {
+  border-color: transparent;
+  background-color: #f8f8f8;
+}
+.blog-single .about-description-box p::before {
+  color: #fff;
+}
+.blog-single .about-description-box p::before {
+  background-color: #dba423;
+}
+.blog-single .comments h3::after,.blog-single .contact-form h3::after{
+  background: linear-gradient( 90deg, #dba423 40%, rgba(13, 202, 145, 0) 100%);
+}
+.primary-button {
+  color: #fff;
+  background-color: #dba423;
+}
+
+/*------------------------- Custom Scrollbar -------------------------*/
+.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+  background-color: #fff;
+  background-color: #dba423;
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  background-color: #dba423;
+}
+.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+  background-color: #fff;
+  background-color: #dba423;
+}
+.slider-thumb::before {
+  background: #c49f69;
+  background: #c29a60;
+}
+/*------------------------- Background Animation -------------------------*/
+.circles li{
+  /* background: rgba(0, 0, 0, 0.08); */
+  background: rgba(255, 255, 255, 0.4);
+}
+/*------------------------- Mouse Magic Cursor -------------------------*/
+.mmc-inner, .mmc-inner.mmc-hover{
+  background-color: #dba423;
+}
+.mmc-outer {
+  border: 2px solid #dba423;
+}
+/*------------------------- Media -------------------------*/
+@media (max-width: 991px) {
+  .services-boxes .row [class^="col-"]::before{
+      background: linear-gradient(to right, rgba(185, 143, 95, 0.15), #dba423, rgba(185, 143, 95, 0.15)) !important;
+ }
+  .left-side a.download-cv{
+      background-color: #dba423 !important;
+      color: #fff;
+ }
+  .next-prev-page button {
+      background-color: #e5e7ed !important;
+
+ }
+  .nav-btn{
+      background-color: transparent;
+ }
+  .nav-btn i{
+      color: #fff;
+ }
+  .menu-toggle {
+      background-color: #e5e7ed !important;
+ }
+  .menu-toggle span{
+      background: #dba423;
+ }
+  .menu-overlay{
+      background-color: rgba(0, 0, 0, 0.25);
+ }
+  .mobile-menu .list-group-item a{
+      color:#000;
+ }
+  .mobile-menu .list-group-item a.active{
+      color: #dba423;
+ }
+ .mobile-blog-nav.blog-next-prev-page a i {
+  color: #dba423;
+}
+}
